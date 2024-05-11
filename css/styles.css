@@ -105,3 +105,27 @@ a:hover {
     height: auto;
     margin-right: 5px;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.content {
+    display: flex;
+}
+
+.text {
+    flex: 1;
+}
+
+.image-container {
+    margin-left: 20px;
+    /* Adjust as needed */
+}
+
+.profile_image {
+    max-width: 100%;
+    /* Ensure the image stays within its container */
+}
